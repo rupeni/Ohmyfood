@@ -1,21 +1,24 @@
+/* Importation des polices */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap');
+
 /* HTML */
 html {
     scroll-behavior: smooth;
 }
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+.title {
+    font-family: "Shrikhand", sans-serif;
+}
 
 /* body */
 .body {
-    display: flex;
-    flex-direction: column;
+
     width: 100%;
-    max-width: 1600px;
-    align-items: center;
-    margin: auto;
-    padding: 0;
-    font-family: "Roboto", "Shrikhand", Verdana, Tahoma, sans-serif;
-    box-sizing: border-box;
-    font-size: 16px;
 }
+/* LOADER */
 .conteneur {
     background-color: #cffcf1;
     width: 100vw;
@@ -24,21 +27,26 @@ html {
     z-index: 5;
     animation: opacit 3000ms ease-in-out forwards;
 }
-.logo {
+/* HEADER */
+header, header a {
     width: 100%;
-    max-width: 992px;
+    display: flex;
+    height: 50px;
     justify-content: center;
+    
+} 
+header img {
+    width: 60%;
+    height: 100%;
+    object-fit: contain;
+   
 }
-.logo img {
-    width: 44.25%;
-    height: auto;
-    margin: 22px auto 12px auto;
-}
+
 /* Main */
 .body .main {
-    position: relative;
+    position: relative; 
     width: 100%;
-    max-width: 1600px;
+    max-width: 1600px;  
 }
 /* Maps */
 .maps {
@@ -46,52 +54,60 @@ html {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: auto;
-    max-width: 1600px;
     background-color: #EAEAEA;
     box-shadow: 0 5px 5px #d4d4d4 inset;
-}
-.maps__btn {
-    display: flex;
-    justify-content: center;
     padding: 10px 0;
 }
-.maps__btn i {
-    font-size: 1em;
-    align-self: center;
-    padding-bottom: 5px;
+
+.maps i {
+    margin-right: 15px;
+    font-size: 1,5em;
 }
-.maps__btn input {
-    width: 70%;
-    text-align: center;
-    max-width: 100%;
+.maps input {
     background-color: #EAEAEA;
     border: none;
-    font-size: 0.95em;
-    font-weight: 500;
+    font-size: 1em;
+    font-weight: bold;
+    height: 30px;
+    color: black;
 }
+.maps input::placeholder { 
+    border: none;
+    color: black;
+}
+.maps input:focus-visible { 
+   outline-color: #9356DC;
+ }
 /* Intro */
 .intro {
     display: flex;
     flex-direction: column;
     background-color: #F6F6F6;
-    justify-content: center;
     align-items: center;
-    width: 100%;
-    height: auto;
-    padding: 40px 20px 50px 20px;
+    padding-left: 100px;
+    padding-right: 100px; 
     text-align: center;
 }
 .intro h1 {
-    width: 72%;
+    
     font-size: 1.35em;
-    font-weight: 700;
-    line-height: 115%;
-    margin-bottom: 12px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 .intro p {
     font-size: 1em;
     line-height: 120%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.intro a {
+    text-decoration: none;
+    color: white;
+    background-color: #9356DC;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 .intro .btn--gradient {
     background: linear-gradient(-5deg, #9356DC, #FF79DA);
@@ -104,9 +120,15 @@ html {
     max-width: 640px;
     margin: auto;
 }
+.operative p {
+    font-size: 1.5em;
+}
 .operative h2 {
-    align-self: flex-start;
-    margin-left: 1%;
+    
+    margin-bottom: 20px;
+}
+.headers{
+    margin-left: 10px;
 }
 .howto {
     display: flex;
@@ -154,9 +176,6 @@ html {
     text-align: center;
     color: #7E7E7E;
 }
-.operative p {
-    font-size: 1.1em;
-}
 .howto--background {
     display: flex;
     justify-content: center;
@@ -198,7 +217,8 @@ html {
 }
 .restaurants h2 {
     align-self: flex-start;
-    margin-left: 1%;
+    margin-left: 17%;
+    margin-bottom: 15px;
 }
 .restaurants__container {
     display: flex;
@@ -283,19 +303,18 @@ html {
     margin-bottom: 24px;
 }
 /* footer */
-.footer {
-    display: flex;
-    flex-direction: column;
-    display: flex;
-    align-items: flex-start;
+footer {
+    /* flex-direction: column;
+    display: flex; */
+    /* align-items: flex-start;
     justify-content: center;
-    position: relative;
+    position: relative; */
     width: 100%;
-    max-width: 1600px;
-    height: auto;
+    /* max-width: 1600px;
+    height: auto; */
     background-color: #353535;
     padding: 30px 0 40px 8%;
-    margin: auto;
+    /* margin: auto; */
 }
 .sock {
     width: 100%;
