@@ -7,6 +7,7 @@ html {
 }
 * {
     font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
     margin: 0;
 }
 .title {
@@ -15,7 +16,7 @@ html {
 
 /* body */
 .body {
-
+    margin: O;
     width: 100%;
 }
 /* LOADER */
@@ -159,7 +160,7 @@ header img {
     left: -12px;
     color: #FFFFFF;
     font-size: 0.85em;
-    font-weight: 500;
+    font-weight: bold;
  }
  .howto__step__byline {
     display: flex;
@@ -168,7 +169,7 @@ header img {
     gap: 24px;
     color: #FFFFFF;
     font-size: 0.85em;
-    font-weight: 500;
+    font-weight: bold;
     color: black;
 }
 .howto__step__byline i {
@@ -197,7 +198,7 @@ header img {
     gap: 24px;
     color: #FFFFFF;
     font-size: 0.85em;
-    font-weight: 500;
+    font-weight: bold;
     color: black;
 }
 .howto__step__byline--bg i {
@@ -258,7 +259,7 @@ header img {
     border-radius: 2px;
     background-color: #99E2D0;
     font-size: 0.8em;
-    font-weight: 500;
+    font-weight: bold;
     color: #008766;
     position: absolute;
     top: 13px;
@@ -340,7 +341,7 @@ footer {
 .sock ul.feedback li a {
     text-decoration: none;
     font-size: 0.85em;
-    font-weight: 400;
+    font-weight: bold;
     color: #FFFFFF;
     line-height: 1.7;
     letter-spacing: 0.1px;
