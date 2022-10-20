@@ -131,6 +131,16 @@ header img {
 .headers{
     margin-left: 10px;
 }
+.filtre { 
+    text-decoration: none;
+    color: black;
+}
+.howto:hover { 
+    background-color: rgb(216, 215, 215);
+}
+.howto--background:hover {
+    background-color: rgb(216, 215, 215);
+}
 .howto {
     display: flex;
     justify-content: center;
@@ -349,4 +359,7 @@ footer {
 .sock ul.feedback li a i {
     width: 25px;
     font-size: 1em;
+}
+.h2 wordmark {
+    text-decoration: none;
 }
