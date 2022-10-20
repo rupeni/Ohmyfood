@@ -360,6 +360,8 @@ footer {
     width: 25px;
     font-size: 1em;
 }
-.h2 wordmark {
+
+footer a {
+
     text-decoration: none;
 }
