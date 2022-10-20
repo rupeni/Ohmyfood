@@ -228,7 +228,7 @@ header img {
 }
 .restaurants h2 {
     align-self: flex-start;
-    margin-left: 17%;
+    margin-left: 11%;
     margin-bottom: 15px;
 }
 .restaurants__container {
@@ -308,7 +308,7 @@ header img {
     box-shadow: 5px 5px 5px #d4d4d4;
     position: relative;
     width: 100%;
-    max-width: 420px;
+    max-width: 530px;
     height: auto;
     background-color: #FFFFFF;
     margin-bottom: 24px;
@@ -363,5 +363,5 @@ footer {
 
 footer a {
 
-    text-decoration: none;
+    text-decoration:none ;
 }
