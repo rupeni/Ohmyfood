@@ -15,6 +15,11 @@ html {
 .title {
     font-family: "Shrikhand", sans-serif;
 }
+/* body */
+.body {
+    margin: O;
+    width: 100%;
+}
 /* LOADER */
 /* .conteneur {
     background-color: #cffcf1;
@@ -30,20 +35,11 @@ header, header a {
     display: flex;
     height: 50px;
     justify-content: center;
- }
- .logo-arrow {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 1600px;
-    height: auto;
-    padding: 0 20px;
-    margin-top: 0px;
-  }
-  .logo-arrow img {
-    width: 44.25%;
-    max-width: 992px;
-    height: auto;
-    margin: 22px auto 12px auto;
-  }
+    
+} 
+header img {
+    width: 60%;
+    height: 100%;
+    object-fit: contain;
+   
+}
