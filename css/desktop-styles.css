@@ -37,7 +37,7 @@
         max-width: 100%;
     }
     .restaurants h2 {
-        margin-right: 95px;
+        margin-right: 102px;
         align-self: center;
         margin-bottom: 15px;
     }
@@ -54,7 +54,7 @@
         font-family: "Shrikhand";
         letter-spacing: 0.65px;
         color: #FFFFFF;
-        margin-left: 170px;
+        margin-left: -177px;
     }
     .sock ul.feedback {
         display: flex;
@@ -62,7 +62,7 @@
         margin: 0;
         padding: 15px 0 0 0;
         flex-direction: column;
-        margin-left: 170px;
+        margin-left: -176px;
     }
 
      }
