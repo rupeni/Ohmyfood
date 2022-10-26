@@ -130,3 +130,135 @@ header i {
     width: 30%;
     height: auto;
   }
+  .main-dishes__subtitles {
+    font-size: 2em;
+    font-weight: 300;
+    padding: 24px 0 6px 1.6%;
+}
+.main-dishes__underline {
+    width: 40px;
+    height: 3px;
+    background-color: #99E2D0;
+    margin: -3px 0 14px 1.6%;
+  }
+.dish {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 485px;
+    height: 90px;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+    margin: 12px auto 12px auto;
+    box-shadow: 5px 5px 5px #d4d4d4;
+}
+.dish__name {
+    width: 340px;
+}
+.dish__name h3 {
+    font-size: 1em;
+    font-weight: 500;
+    margin: 16px 0px 0px 8px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-left: 12px;
+  }
+.dish__name p {
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    padding: 0px 0px 10px 8px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-left: 5px;
+    margin-bottom: 20PX;
+  }  
+ 
+.dish__price {
+    position: relative;
+    right: 4px;
+    bottom: 8px;
+}
+.dish i {
+    display: none;
+  }
+.dish__booking {
+    width: 0%;
+  }
+.dish:hover > .dish__booking {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+    min-width: 0px;
+    height: 69px;
+    border-radius: 0 14px 14px 0;
+    background-color: #99E2D0;
+    margin-right: 0px;
+    width: 30%;
+    transition: width 600ms ease-in-out;
+  }
+
+ a.btn.btn {
+    text-decoration: none;
+    color: white;
+    background-color: #9356DC;
+    padding: 18px 32px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 250px;
+    display: block;
+    margin-left: 321px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* FOOTER  */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 1600px;
+    height: auto;
+    background-color: #353535;
+    padding: 30px 0 40px 5%;
+    margin: auto;
+  }
+.sock {
+    width: 100%;
+    /* max-width: 600px;
+    margin: auto; */
+  }
+.sock h2 {
+    font-family: "Shrikhand";
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 0.65px;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+ }
+.sock ul.feedback {
+    list-style: none;
+    margin: 0;
+    padding: 15px 0 0 0;
+  }
+  .sock ul.feedback li a {
+    text-decoration: none;
+    font-size: 0.85em;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 1.7;
+    letter-spacing: 0.1px;
+  }
+.sock ul.feedback li a i {
+    width: 25px;
+    font-size: 1em;
+  }
