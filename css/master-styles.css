@@ -16,7 +16,7 @@ html {
     font-family: "Shrikhand", sans-serif;
 }
 /* body */
-.body {
+body {
     margin: O;
     width: 100%;
 }
@@ -30,16 +30,103 @@ html {
     animation: opacit 3000ms ease-in-out forwards;
 } */
 /* HEADER */
-header, header a {
+header {
+    width: 100%;
+    
+    
+} 
+header a {
     width: 100%;
     display: flex;
     height: 50px;
     justify-content: center;
     
 } 
-header img {
-    width: 60%;
-    height: 100%;
-    object-fit: contain;
-   
+header i {
+        font-size: 44px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        margin-top: 10px;
 }
+ header img {
+    width: 89%;
+    height: 95%;
+    object-fit: contain;
+    margin-top: 10px;
+} 
+/* main */
+.body .main {
+    position: relative; 
+    width: 100%;
+    max-width: 1600px;  
+}
+.cover {
+    /* position: absolute; */
+    width: 100%;
+    /* max-width: 1600px; */
+  }
+  .cover img {
+    width: 100%;
+    margin-top: 15px;
+}
+.menus {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    flex-direction: column;
+    padding: 30px 5% 58px 5%;
+    position: relative;
+    background-color: #F6F6F6;
+    border-radius: 36px 36px 0 0;
+  }
+.menus__titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menus__titles h1 {
+    width: auto;
+    font-family: "Shrikhand";
+    font-size: 3.75em;
+    font-weight: bold;
+    padding: 6px 1.6%;
+}
+.menus__titles i {
+    font-size: 3.75em;
+    padding-right: 5.87%;
+}
+.menus__titles img {
+    display: none;
+  }
+.menus .heart:hover i {
+    display: none;
+  } 
+.menus__titles:hover img {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    /* -webkit-animation: appearheart 1000ms ease-in-out;
+            animation: appearheart 1000ms ease-in-out; */
+  } 
+.menus .heart:hover img {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    animation: appearheart 1000ms linear;
+  }
+  /* ENTREE */
+  .menus > .blackboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .menus > .blackboard .main-dishes {
+    width: 30%;
+    height: auto;
+  }
