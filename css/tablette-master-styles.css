@@ -1,0 +1,18 @@
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    .menus > .blackboard {
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: nowrap; */
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+    }
+    .dish__price {
+        position: relative;
+        right: -105px;
+        bottom: 8px;
+    }
+    a.btn.btn:hover {
+        background: linear-gradient(-5deg,#9356DC, #FF79DA); 
+      }
+}

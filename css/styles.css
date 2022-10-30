@@ -110,8 +110,8 @@ header img {
     margin-top: 20px;
     margin-bottom: 40px;
 }
-.intro .btn--gradient {
-    background: linear-gradient(-5deg, #9356DC, #FF79DA);
+.intro .btn--gradient:hover {
+   background: linear-gradient(-5deg,#9356DC, #FF79DA); 
 }
 /* Operative */
 .operative {
@@ -136,10 +136,10 @@ header img {
     color: black;
 }
 .howto:hover { 
-    background-color: rgb(216, 215, 215);
+    background-color: #d9c2f5;
 }
 .howto--background:hover {
-    background-color: rgb(216, 215, 215);
+    background-color: #d9c2f5;
 }
 .howto {
     display: flex;
@@ -159,7 +159,8 @@ header img {
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background-color: #9356DC;
+    /* background-color: #9356DC; */
+    background-color: rgb(216, 215, 215);
     display: flex;
     justify-content: center;
     align-items: center;
