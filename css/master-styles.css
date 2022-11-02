@@ -101,10 +101,10 @@ header i {
 .menus__titles img {
     display: none;
   }
-.menus .heart:hover i {
+.heart:hover i {
     display: none;
   } 
-.menus__titles:hover img {
+.titles:hover img {
     display: flex;
     width: 32px;
     height: 32px;
@@ -112,7 +112,7 @@ header i {
     /* -webkit-animation: appearheart 1000ms ease-in-out;
             animation: appearheart 1000ms ease-in-out; */
   } 
-.menus .heart:hover img {
+.heart:hover img {
     display: flex;
     width: 32px;
     height: 32px;
