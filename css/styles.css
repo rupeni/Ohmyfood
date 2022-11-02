@@ -1,6 +1,45 @@
 /* Importation des polices */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap');
-
+/* @keyframes appearheart {
+    0% {
+      opacity: 0.3;
+      transform: scale(0);
+    }
+    50% {
+      opacity: 0.6;
+      transform: scale(0.5);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1.1);
+    }
+  }
+  @keyframes ticks {
+    0% {
+      transform: scaleY(0) scaleX(0);
+    }
+    100% {
+      transform: scaleY(1) scaleX(1);
+    }
+  }
+  .main-dishes {
+    animation: ticks 750ms backwards ease-in-out;
+  }
+  .main-dishes--1 {
+    animation-delay: 1580ms;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+  }
+  .main-dishes--2 {
+    animation-delay: 1285ms;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+  }
+  .main-dishes--3 {
+    animation-delay: 660ms;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+  } 
 /* HTML */
 html {
     scroll-behavior: smooth;
@@ -314,16 +353,32 @@ header img {
     background-color: #FFFFFF;
     margin-bottom: 24px;
 }
+.menus__titles img {
+    display: none;
+  }
+  .menus .heart:hover i {
+    display: none;
+  }
+  .menus .heart:hover img {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    animation: appearheart 1000ms linear;
+  } */
+/* .card__like img {
+    display: none;
+  } */
 /* footer */
-footer {
-    /* flex-direction: column;
-    display: flex; */
-    /* align-items: flex-start;
+.footer {
+     flex-direction: column;
+    display: flex; 
+     align-items: flex-start;
     justify-content: center;
-    position: relative; */
+    position: relative; 
     width: 100%;
-    /* max-width: 1600px;
-    height: auto; */
+    max-width: 1600px;
+    height: auto; 
     background-color: #353535;
     padding: 30px 0 40px 8%;
     /* margin: auto; */
