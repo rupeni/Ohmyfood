@@ -370,7 +370,7 @@ header img {
     display: none;
   } */
 /* footer */
-footer {
+.footer {
      flex-direction: column;
     display: flex; 
      align-items: flex-start;

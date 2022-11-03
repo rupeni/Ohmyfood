@@ -66,6 +66,11 @@ header i {
     width: 100%;
     /* max-width: 1600px; */
   }
+  .cover_a img {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: -258px;
+}
   .cover img {
     width: 100%;
     margin-top: 15px;
