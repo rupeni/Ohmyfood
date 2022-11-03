@@ -114,8 +114,8 @@ header i {
     width: 32px;
     height: 32px;
     overflow: hidden;
-    /* -webkit-animation: appearheart 1000ms ease-in-out;
-            animation: appearheart 1000ms ease-in-out; */
+     -webkit-animation: appearheart 1000ms ease-in-out;
+            animation: appearheart 1000ms ease-in-out; 
   } 
 .heart:hover img {
     display: flex;
