@@ -66,10 +66,16 @@ header i {
     width: 100%;
     /* max-width: 1600px; */
   }
+  .img {
+    width: 100%;
+    height: 250px;
+  }
   .cover_a img {
     width: 100%;
     margin-top: 15px;
+    object-fit: cover;
     margin-bottom: -258px;
+    height: 904px;
 }
   .cover img {
     width: 100%;
@@ -130,7 +136,7 @@ header i {
     /* flex-direction: row; */
     /* flex-wrap: nowrap; */
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     gap: 5px;
   }
   .menus > .blackboard .main-dishes {
@@ -164,23 +170,24 @@ header i {
     width: 249px;
 }
 .dish__name h3 {
-    font-size: 1em;
+    font-size: 18px;
     font-weight: 500;
     margin: 16px 0px 0px 8px;
     text-overflow: ellipsis;
     overflow: hidden;
     margin-left: 12px;
   }
-.dish__name p {
-    font-size: 0.9em;
+  .dish__name p {
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: -0.03em;
     padding: 0px 0px 10px 8px;
     text-overflow: ellipsis;
     overflow: hidden;
     margin-left: 5px;
-    margin-bottom: 20PX;
-  }  
+    margin-bottom: 9PX;
+    margin-top: 8px;
+} 
  
 .dish__price {
     position: relative;
@@ -241,16 +248,16 @@ header i {
   background: linear-gradient(-5deg,#9356DC, #FF79DA); 
 }
 /* FOOTER  */
-.footer {
+footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     position: relative;
     width: 100%;
-    max-width: 1600px;
+    /* max-width: 1600px; */
     height: auto;
-    background-color: #353535;
+    background-color: black;
     padding: 30px 0 40px 5%;
     margin: auto;
   }
