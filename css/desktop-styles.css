@@ -50,6 +50,9 @@
         margin-bottom: 35px;
     }
     /* footer */
+    footer{
+        background-color: black;
+    }
     .sock h2 {
         font-family: "Shrikhand";
         letter-spacing: 0.65px;

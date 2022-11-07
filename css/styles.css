@@ -387,6 +387,7 @@ footer {
     width: 100%;
      max-width: 600px;
     margin: auto; 
+    margin-left: 250opx;
      }
 .sock h2 {
     font-family: "Shrikhand";
@@ -398,6 +399,7 @@ footer {
     max-width: 600px;
     text-align: left;
     align-self: flex-start;
+    padding-top: 15px;
 }
 .sock ul.feedback {
     list-style: none;
