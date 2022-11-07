@@ -210,7 +210,7 @@ header i {
     border-radius: 0 14px 14px 0;
     background-color: #99E2D0;
     margin-right: 0px;
-    width: 30%;
+    width: 15%;
     transition: width 600ms ease-in-out;
   }
   .dish:hover > .dish__booking > .check, .dish:hover > .dish__booking i {
