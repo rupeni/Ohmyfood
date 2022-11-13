@@ -261,7 +261,7 @@ header img {
 .howto__step__byline--bg i {
     font-size: 22px;
     text-align: center;
-    color: #9356DC;
+    color: #7E7E7E;
 }
 /* restaurants */
 .restaurants {
@@ -343,7 +343,7 @@ header img {
     font-size: 1em;
 }
 .card__like i {
-    font-size: 30px;
+    font-size: 29px;
 }
 .card__like img {
     display: none;
@@ -417,14 +417,14 @@ footer {
     width: 100%;
     height: auto; 
     background-color:black;
-    padding: 30px 0 40px 5%;
-     margin: auto; 
+    padding: 30px 0 40px 0;
+     /* margin: auto;  */
 }
 .sock {
     width: 100%;
      max-width: 600px;
     margin: auto; 
-    margin-left: 250opx;
+    margin-left: 250px;
      }
 .sock h2 {
     font-family: "Shrikhand";
