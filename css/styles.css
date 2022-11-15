@@ -1,46 +1,86 @@
-/* Importation des polices */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap');
-/* @keyframes appearheart {
-    0% {
-      opacity: 0.3;
-      transform: scale(0);
+:root{
+    --violet: #9356dc;
+    --pink: #ff76da;
+    --blue: #99e2d0;
+}
+        /*ACCUEIL*/
+        /*LOADING SPINER*/
+
+.loader-container{
+    background: #EAEAEA;
+    opacity: 0.9;
+    z-index: 2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    inset: 0;
+    animation: time 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes time{
+    0%{
+       /* transform: scale(0.5);*/
+        opacity: 1;
     }
-    50% {
-      opacity: 0.6;
-      transform: scale(0.5);
+    
+    100%{
+        /*transform: scale(1);*/
+        opacity: 0;
+        z-index: -1;
     }
-    100% {
-      opacity: 1;
-      transform: scale(1.1);
+}
+
+.loader{
+    display: block;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 8px solid transparent;
+    border-top-color: var(--violet);
+    animation: spin 2s linear infinite;
+
+}
+
+.loader::before, .loader::after{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: 8px solid transparent;
+
+}
+
+.loader::before{
+    top: 10px;
+    left: 10px;
+    right:10px;
+    bottom: 10px;
+    border-top-color:var(--pink) ;
+    animation: spin 3s linear infinite;
+    
+}
+
+.loader::after{
+    top: 25px;
+    left: 25px;
+    right:25px;
+    bottom: 25px;
+    border-top-color:var(--blue);
+    animation: spin 1.5s linear infinite;
+
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
     }
-  }
-  @keyframes ticks {
-    0% {
-      transform: scaleY(0) scaleX(0);
+    100%{
+        transform: rotate(360deg);
     }
-    100% {
-      transform: scaleY(1) scaleX(1);
-    }
-  }
-  .main-dishes {
-    animation: ticks 750ms backwards ease-in-out;
-  }
-  .main-dishes--1 {
-    animation-delay: 1580ms;
-    animation-direction: alternate;
-    animation-fill-mode: backwards;
-  }
-  .main-dishes--2 {
-    animation-delay: 1285ms;
-    animation-direction: alternate;
-    animation-fill-mode: backwards;
-  }
-  .main-dishes--3 {
-    animation-delay: 660ms;
-    animation-direction: alternate;
-    animation-fill-mode: backwards;
-  } 
-/* HTML */
+}
 html {
     scroll-behavior: smooth;
 }
@@ -124,8 +164,8 @@ header img {
     flex-direction: column;
     background-color: #F6F6F6;
     align-items: center;
-    padding-left: 100px;
-    padding-right: 100px; 
+    padding-left: 10px;
+    padding-right: 10px; 
     text-align: center;
 }
 .intro h1 {
@@ -424,7 +464,7 @@ footer {
     width: 100%;
      max-width: 600px;
     margin: auto; 
-    margin-left: 250px;
+    margin-left: 250opx;
      }
 .sock h2 {
     font-family: "Shrikhand";

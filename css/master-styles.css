@@ -15,6 +15,89 @@ html {
 .title {
     font-family: "Shrikhand", sans-serif;
 }
+:root{
+  --violet: #9356dc;
+  --pink: #ff76da;
+  --blue: #99e2d0;
+}
+      /*ACCUEIL*/
+      /*LOADING SPINER*/
+
+.loader-container{
+  background: #EAEAEA;
+  opacity: 0.9;
+  z-index: 2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  inset: 0;
+  animation: time 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes time{
+  0%{
+     /* transform: scale(0.5);*/
+      opacity: 1;
+  }
+  
+  100%{
+      /*transform: scale(1);*/
+      opacity: 0;
+      z-index: -1;
+  }
+}
+
+.loader{
+  display: block;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 8px solid transparent;
+  border-top-color: var(--violet);
+  animation: spin 2s linear infinite;
+
+}
+
+.loader::before, .loader::after{
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  border: 8px solid transparent;
+
+}
+
+.loader::before{
+  top: 10px;
+  left: 10px;
+  right:10px;
+  bottom: 10px;
+  border-top-color:var(--pink) ;
+  animation: spin 3s linear infinite;
+  
+}
+
+.loader::after{
+  top: 25px;
+  left: 25px;
+  right:25px;
+  bottom: 25px;
+  border-top-color:var(--blue);
+  animation: spin 1.5s linear infinite;
+
+}
+
+@keyframes spin {
+  0%{
+      transform: rotate(0deg);
+  }
+  100%{
+      transform: rotate(360deg);
+  }
+}
 /* body */
 body {
     margin: O;
@@ -77,10 +160,12 @@ header i {
     margin-bottom: -258px;
     height: 904px;
 }
-  .cover img {
-    width: 100%;
-    margin-top: 15px;
-    margin-bottom: -125px;
+.cover img {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: -125px;
+  height: 500px;
+  object-fit: cover;
 }
 .menus {
     display: flex;
@@ -101,12 +186,12 @@ header i {
   .menus__titles h1 {
     width: auto;
     font-family: "Shrikhand";
-    font-size: 3em;
+    font-size: 1.8em;
     font-weight: bold;
-    padding: 6px 1.6%;
+    padding: 6px 0px;
 }
 .menus__titles i {
-  font-size: 2.75em;
+  font-size: 1.1em;
   padding-right: 5.87%;
 }
 .btn-like {
@@ -174,7 +259,7 @@ header i {
     height: auto;
   }
   .main-dishes__subtitles {
-    font-size: 2em;
+    font-size: 1.1em;
     font-weight: 300;
     padding: 24px 0 6px 1.6%;
 }
@@ -217,6 +302,8 @@ header i {
     margin-left: 5px;
     margin-bottom: 9PX;
     margin-top: 8px;
+    white-space: nowrap;
+
 } 
  
 .dish__price {
