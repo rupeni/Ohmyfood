@@ -99,14 +99,7 @@ html {
     width: 100%;
 }
 /* LOADER */
-/* .conteneur {
-    background-color: #cffcf1;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    z-index: 5;
-    animation: opacit 3000ms ease-in-out forwards;
-} */
+
 /* HEADER */
 header, header a {
     width: 100%;
