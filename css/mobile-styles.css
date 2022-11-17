@@ -1,5 +1,5 @@
 /* MEDIA-QUERY */
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
     .menus {
         display: flex;
         width: 100%;
@@ -11,15 +11,18 @@
         background-color: #F6F6F6;
         border-radius: 36px 36px 0 0;
     }
-    .menus > .blackboard {
+
+    .menus>.blackboard {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .menus > .blackboard .main-dishes {
+
+    .menus>.blackboard .main-dishes {
         width: 100%;
         height: auto;
     }
+
     .dish {
         display: flex;
         justify-content: space-between;
@@ -31,6 +34,7 @@
         margin: 12px 12px;
         box-shadow: 5px 5px 5px #d4d4d4;
     }
+
     /* .dish__price {
         position: relative;
         right: -80px;
@@ -38,11 +42,9 @@
     } */
     .sock {
         width: 100%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
     }
-    .sock h2 {
+
+    /* .sock h2 {
         font-family: "Shrikhand";
         font-size: 1em;
         font-weight: lighter;
@@ -54,5 +56,13 @@
         display: flex;
         justify-content: center;
         margin-right: 76px;
+    } */
+
+    .card {
+        width: 90%;
     }
-     }
+
+    .operative p {
+        font-size: 1.2em;
+    }
+}

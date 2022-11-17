@@ -1,5 +1,28 @@
 @media screen and (max-width: 992px) and (min-width: 768px) {
-    header, header a {
+    .menus>.blackboard {
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: nowrap; */
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+    }
+
+    btn __price {
+        position: relative;
+        right: -105px;
+        bottom: 8px;
+    }
+
+    a.btn.btn:hover {
+        background: linear-gradient(-5deg, #9356DC, #FF79DA);
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+
+    header,
+    header a {
         width: 100%;
         display: flex;
         height: 50px;
@@ -7,11 +30,16 @@
         margin-bottom: 20px;
         margin-top: 10px;
     }
+
     .restaurants {
         display: flex;
         flex-direction: column;
         background-color: #F6F6F6;
         align-items: center;
-        
-    } 
+
+    }
+
+    .card {
+        width: 40%;
+    }
 }
