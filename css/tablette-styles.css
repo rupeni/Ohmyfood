@@ -12,8 +12,6 @@
         flex-direction: column;
         background-color: #F6F6F6;
         align-items: center;
-        max-width: 768px;
-        margin: auto;
-        padding: 58px 5.5%;
+        
     } 
 }

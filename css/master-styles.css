@@ -158,7 +158,8 @@ header i {
     margin-top: 15px;
     object-fit: cover;
     margin-bottom: -258px;
-    height: 904px;
+    height: 650px;
+    object-fit: cover;
 }
 .cover img {
   width: 100%;
