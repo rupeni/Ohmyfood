@@ -421,22 +421,7 @@ header img {
   .icon-fas:hover {
     opacity: 1;
   }
-/* .titles img {
-    display: none;
-  }
-  .heart:hover i {
-    display: none;
-  }
-  .heart:hover img {
-    display: flex;
-    width: 32px;
-    height: 32px;
-    overflow: hidden;
-    animation: appearheart 1000ms linear;
-  }  */
-/* .card__like img {
-    display: none;
-  } */
+
 /* footer */
 
 footer {
@@ -449,7 +434,7 @@ footer {
     height: auto; 
     background-color:black;
     padding: 30px 0 40px 0;
-     /* margin: auto;  */
+     
 }
 .sock {
     width: 100%;
