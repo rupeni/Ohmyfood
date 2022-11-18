@@ -364,7 +364,7 @@ header img {
     height: 175px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
-    object-position: bottom;
+    object-position: cover;
 }
 
 .card__new-btn {
@@ -599,67 +599,13 @@ header img {
     font-size: 1.1em;
     padding-right: 5.87%;
 }
-
-.btn-like {
-    font-size: 30px;
-    position: relative;
-    cursor: pointer;
-    border: none;
-    background: none;
-    padding: 0;
-    align-items: center;
-    justify-content: center;
-}
-
-.icon-fas {
-    position: absolute;
-    z-index: 0;
-    top: 0px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: linear-gradient(180deg, #FF79DA, #9356DC);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition-delay: 0.5s;
-    transition: opacity 0.5s ease-out;
-    opacity: 0;
-}
-
 .icon-fas:hover {
     opacity: 1;
 }
 
-/* .menus__titles img {
-    display: none;
-  }
-.heart:hover i {
-    display: none;
-  } 
-.titles:hover img {
-    display: flex;
-    width: 32px;
-    height: 32px;
-    overflow: hidden;
-     -webkit-animation: appearheart 1000ms ease-in-out;
-            animation: appearheart 1000ms ease-in-out; 
-  } 
-.heart:hover img {
-    display: flex;
-    width: 32px;
-    height: 32px;
-    overflow: hidden;
-    animation: appearheart 1000ms linear;
-  } */
-/* ENTREE */
 .menus>.blackboard {
     display: flex;
-    /* flex-direction: row; */
-    /* flex-wrap: nowrap; */
     justify-content: space-between;
-    /* align-items: center; */
     gap: 5px;
 }
 
@@ -844,39 +790,7 @@ footer {
 
 .sock {
     width: 100%;
-    /* max-width: 600px;
-    margin: auto; */
-}
-
-.sock h2 {
-    font-family: "Shrikhand";
-    font-size: 1em;
-    font-weight: lighter;
-    letter-spacing: 0.65px;
-    color: #FFFFFF;
-    width: 100%;
-    max-width: 600px;
-    text-align: left;
-}
-
-.sock ul.feedback {
-    list-style: none;
-    margin: 0;
-    padding: 15px 0 0 0;
-}
-
-.sock ul.feedback li a {
-    text-decoration: none;
-    font-size: 0.85em;
-    font-weight: 400;
-    color: #FFFFFF;
-    line-height: 1.7;
-    letter-spacing: 0.1px;
-}
-
-.sock ul.feedback li a i {
-    width: 25px;
-    font-size: 1em;
+    
 }
 
 
