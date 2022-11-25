@@ -538,7 +538,7 @@ header img {
     width: 89%;
     height: 95%;
     object-fit: contain;
-    margin-top: 10px;
+    margin-top: 1px;
 }
 
 .cover {
@@ -689,6 +689,7 @@ header img {
     text-overflow: ellipsis;
     overflow: hidden;
     margin-left: 12px;
+    white-space: nowrap;
 }
 
 .dish__name p {
@@ -797,9 +798,10 @@ footer {
 /* MEDIA-QUERY */
 @media (min-width: 992px) {
     header img {
-        width: 60%;
+        width: 80%;
         height: 80%;
         object-fit: contain;
+        /* margin-right: 238px; */
     }
 
     header,
