@@ -424,7 +424,7 @@ header img {
     margin-bottom: 25px;
 }
 
-.btn-like {
+.btn_like {
     font-size: 30px;
     position: relative;
     cursor: pointer;
@@ -452,11 +452,11 @@ header img {
     opacity: 0;
 }
 
-.btn-like:hover .icon-fas {
+.btn_like:hover .icon-fas {
     opacity: 1;
 }
 
-.btn-like:hover .far.fa-heart {
+.btn_like:hover .far.fa-heart {
     opacity: 0;
 }
 
